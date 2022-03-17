@@ -1,0 +1,19 @@
+name: nf.core methylseq
+identifier: WF_99feb5.32
+description: Methylation (Bisulfite-Sequencing) analysis pipeline using Bismark or
+  bwa-meth + MethylDackel
+softwareVersion:
+  versionName: 1.6.1
+metadataStatus: Released
+workflowStatus: Released
+workflowFile: methylseq.wdl
+repoName: nfcore-methylseq
+gitTag: master
+inputsTemplate: inputs.json
+executable: true
+current: true
+codeRepository:
+  URL: https://github.com/truwl/nfcore-methylseq/
+WebSite:
+- URL: https://github.com/nf-core/methylseq
+  name: nf-core/methylseq
